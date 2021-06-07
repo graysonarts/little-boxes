@@ -1,0 +1,29 @@
+{
+  "name": "boxes",
+  "version": "1.0.0",
+  "main": "build/app.js",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "three": "^0.129.0",
+    "typescript": "^4.3.2"
+  },
+  "scripts": {
+    "watch": "rollup -c -w",
+    "serve": "five-server --port=3000 build",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@types/chroma-js": "^2.1.3",
+    "@types/three": "^0.129.1",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "chroma-js": "^2.1.2",
+    "eslint": "^7.28.0",
+    "five-server": "^0.0.26",
+    "rollup": "^2.51.0"
+  }
+}
